@@ -5,7 +5,7 @@ class Database {
     private $port = '5432';
     private $dbname = 'minecraft_db';
     private $user = 'postgres';
-    private $password = 'ThundK05';
+    private $password = 'your_password';
     public $conn;
 
     public function connect() {
@@ -24,3 +24,4 @@ class Database {
         return $this->conn;
     }
 }
+
